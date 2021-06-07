@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manifesti animati</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<style>
+
+	body {
+		overflow: hidden;
+	}
+
+	video {
+		margin:auto;
+		display:block;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+
+</style>
+
+<body>
+
+	<div class="griglia">
+	  		<h2 class="span_9">Street food festival<br>Bellinzona<br>2021</h2>
+	</div>
+
+
+	<video id="videoplayer" autoplay playsinline loop width="460">
+  		<source src="video/poster_streetfood_bianco_blu.mp4" type="video/mp4"></source>
+	</video>
+
+	<div class="griglia">
+		<div class="buttonright span_1">
+	    	    <a href="index.html">home</a>
+		</div>
+		<div class="span_10"></div>
+		 <div class="buttonright span_1">
+			    <a href="Manifesto_2.html">avanti</a>
+		 </div>
+	</div>
+
+
+
+
+<script>
+
+	//video
+	document.getElementById("videoplayer").addEventListener("mouseover", function() {
+	this.play();
+	});
+
+	document.getElementById("videoplayer").addEventListener("mouseleave", function() {
+	this.pause();
+	}); 
+
+
+</script>
+
+
+
+</body>
+</html>

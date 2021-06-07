@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manifesti animati</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<style>
+
+	body {
+		overflow: hidden;
+		display: block;
+
+	}
+
+	p {
+		margin:0;
+		display: block;
+	}
+
+	.centrato {
+		margin-top: 10%;
+		display: flex;
+  		justify-content: center;
+  		align-items: center;
+	}
+
+	.buttonleft a{
+		background: white;
+		color:black;
+	}
+
+</style>
+
+
+<body>
+
+
+	<div class="griglia">
+		<div class="span_1"></div>
+	  		<h3 class="span_9">Manifesti<br>in movimento</h3>
+	</div>
+
+	<div class="griglia">
+	  	<div class="span_3"></div>
+	  		<p class="span_7 paragrafobase"> 
+				L'intento di questa pagina web è quello di raccogliere dei manifesti in movimento,
+				nello specifico vedrete dei manifesti relativi a dei festival o delle sagre che si svolgono in Ticino. 
+			</p>
+	</div>
+
+
+	<div class="griglia">
+		<div class="span_10"></div>
+		<div class="buttonright span_2">
+			    <a href="Manifesto_1.html">Vai ai manifesti</a>
+		 </div>
+	</div>
+
+
+
+
+
+<script>
+
+	//video
+	document.getElementById("videoplayer").addEventListener("mouseover", function() {
+	this.play();
+	});
+
+	document.getElementById("videoplayer").addEventListener("mouseleave", function() {
+	this.pause();
+	}); 
+
+
+</script>
+
+
+
+</body>
+</html>

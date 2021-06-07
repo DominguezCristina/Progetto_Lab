@@ -1,0 +1,183 @@
+
+	body {
+		margin:10px;
+		background: black;
+		color:white;
+		display: block;	
+	}
+
+	h2 	{
+		font-family: Be Vietnam;
+		font-weight: 500;
+		font-size:150%;
+		color:white;
+		margin:15px 0px 0px 0px;
+		line-height: 1;
+	}
+
+	h3 	{
+		font-family: Be Vietnam;
+		font-weight: 500;
+		font-size:700%;
+		color:white;
+		margin:0;
+		line-height: 0.9;
+		margin:0px 0 0 0;
+	}
+
+
+	.buttonright a{
+		font-family: Be Vietnam;
+		font-weight: 400;
+		font-size:130%;
+		float:right;
+		background: black;
+		color:white;
+		border-radius: 30px;
+		border: 1px solid white;
+		padding:5px 10px 10px 10px;
+		text-decoration: none;
+		display: block;
+		bottom:2%;
+		position: fixed;
+		margin:0px;
+	}
+
+	.buttonleft	a{
+		font-family: Be Vietnam;
+		font-weight: 400;
+		font-size:130%;
+		float:left;
+		background: black;
+		color:white;
+		border-radius: 30px;
+		border: 1px solid white;
+		padding:5px 10px 10px 10px;
+		text-decoration: none;
+		display: block;
+		bottom:2%;
+		position: fixed;
+		margin:0px;
+
+	}
+
+
+	.buttonright a:hover {
+		background: white;
+		color:black;
+		display: block;
+		border-radius: 30px;
+		border: 1px solid white;
+		padding:5px 10px 10px 10px;
+		text-decoration: none;
+		display: block;
+		bottom:2%;
+		position: fixed;
+		text-align: center;
+	}
+
+	.buttonleft a:hover	{
+		background: white;
+		color:black;
+		display: block;
+		border-radius: 30px;
+		border: 1px solid white;
+		padding:5px 10px 10px 10px;
+		text-decoration: none;
+		display: block;
+		bottom:2%;
+		position: fixed;
+		text-align: center;
+	}
+
+
+	p {
+		margin:0;
+		display: block;
+	}
+
+	.paragrafobase {
+		font-family: Be Vietnam;
+		font-weight: 300;
+		font-size:150%;
+		color:white;
+		margin: 50px 0px 0px 10px;
+		line-height: 1.05;
+		display:block;
+		text-align:justify;
+
+	}
+
+	.griglia {
+		max-width:100%;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-column-gap:25px;
+		grid-row-gap:10px;
+		margin:10px;
+	}
+
+
+	.flex {
+		display:flex;
+		justify-content:space-between;
+		margin: 0px;
+	}	
+	}
+
+	.span_1 {
+		grid-column:span 1;
+		}
+
+	.span_2 {
+		grid-column:span 2;
+		}
+
+	.span_3 {
+		grid-column:span 3;
+		}
+
+	.span_4 {
+		grid-column:span 4;
+		}
+
+	.span_6 {
+		grid-column:span 6;
+		}
+
+	.span_7 {
+		grid-column:span 7;
+		}
+
+	.span_8 {
+		grid-column:span 8;
+		}
+
+	.span_9 {
+		grid-column:span 9;
+		}
+
+	.span_10 {
+		grid-column:span 10;
+		}	
+
+
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-gap: 10px;
+	  background-color: black;
+	  color:white;
+	  padding:5px;
+	  position: relative;
+	}
+
+	.grid-container > div {
+	  background-color: black;
+	  text-align: left;
+	  font-size: 30px;
+	  color:white;
+	  position: relative;
+	}
+
+
